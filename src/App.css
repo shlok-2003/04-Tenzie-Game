@@ -32,7 +32,6 @@ main {
   width: calc(100% - 20px);
 
   border-radius: 10px;
-  background-color: antiquewhite;
   
   grid-template: auto auto / repeat(5, 1fr);
   grid-gap: 20px;
