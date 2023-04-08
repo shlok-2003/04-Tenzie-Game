@@ -1,0 +1,32 @@
+.game--result {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.game--title {
+    text-align: center;
+    font-weight: 900;
+}
+
+.game--time, .game--roll {
+    height: 1.2rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.game--time > span, .game--roll > span {
+    display: inline-block;
+}
+
+.game--time span:nth-of-type(1),  .game--roll span:nth-of-type(1){
+    width: 120px;
+}
+
+.game--time span:nth-of-type(2),  .game--roll span:nth-of-type(2){
+    width: 40px;
+    margin-left: auto;
+    text-align: right;
+}

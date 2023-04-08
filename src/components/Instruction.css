@@ -1,0 +1,20 @@
+.main--text-container {
+    display: flex;
+}
+
+.main--text-instruction {
+    text-align: center;
+}
+
+.main--text-instruction .title {
+    letter-spacing: -2px;
+}
+
+.instructions {
+    width: 240px;
+
+    font-size: larger;
+    text-align: justify;
+
+    margin: 30px 0 0 0;
+}
